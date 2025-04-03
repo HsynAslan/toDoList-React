@@ -68,4 +68,4 @@ Katkılarınız her zaman hoş karşılanır! Yapmanız gerekenler:
 
 ## Lisans
 
-Bu proje MIT Lisansı ile lisanslanmıştır - daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
+Tüm hakları saklıdır.
