@@ -1,5 +1,6 @@
 Link üzerinden canlı izleyebilirsiniz
-# todolistreacthsyn.netlify.app
+[todolistreacthsyn.netlify.app](https://todolistreacthsyn.netlify.app/)
+# To Do List React Project
 
 Bu proje, React.js kullanarak geliştirilmiş basit bir "Yapılacaklar Listesi" (To-Do List) uygulamasıdır. Kullanıcılar, yapılacak görevleri ekleyebilir, tamamlayabilir ve silebilirler. Ayrıca, görevler tarayıcıda saklanarak, sayfa yenilendiğinde kaybolmaz.
 
