@@ -48,46 +48,46 @@ const TodoApp = () => {
   };
 
   return (
-    <div className="app-container">
-      {/* Three.js Canvas */}
-      <ThreeCanvas />
-
-      <div className="todo-container">
-        <h2>My To-Do List</h2>
-        <div className="input-container">
-          <input
-            type="text"
-            value={newTask}
-            onChange={(e) => setNewTask(e.target.value)}
-            placeholder="Add a new task"
-          />
-          <button onClick={addTask}>Add Task</button>
-        </div>
-
-        <ul className="task-list">
-          {tasks.map((task) => (
-            <li key={task.id} className="task-item">
-              <label className="task-checkbox">
-                <input
-                  type="checkbox"
-                  checked={task.completed}
-                  onChange={() => toggleTaskCompletion(task.id)}
-                />
-                <span className={task.completed ? "completed-text" : ""}>
-                  {task.text}
-                </span>
-              </label>
-              <button
-                onClick={() => deleteTask(task.id)}
-                className="delete-btn"
-              >
-                Delete
-              </button>
-            </li>
-          ))}
-        </ul>
+    <div id="app-container">
+    {/* Three.js Canvas */}
+    <ThreeCanvas />
+  
+    <div id="todo-container">
+      <h2>My To-Do List</h2>
+      <div id="input-container">
+        <input
+          type="text"
+          value={newTask}
+          onChange={(e) => setNewTask(e.target.value)}
+          placeholder="Add a new task"
+        />
+        <button onClick={addTask}>Add Task</button>
       </div>
+  
+      <ul id="task-list">
+        {tasks.map((task) => (
+          <li key={task.id} className="task-item">
+            <label className="task-checkbox">
+              <input
+                type="checkbox"
+                checked={task.completed}
+                onChange={() => toggleTaskCompletion(task.id)}
+              />
+              <span className={task.completed ? "completed-text" : ""}>
+                {task.text}
+              </span>
+            </label>
+            <button
+              onClick={() => deleteTask(task.id)}
+              className="delete-btn"
+            >
+              Delete
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
+  </div>
   );
 };
 
